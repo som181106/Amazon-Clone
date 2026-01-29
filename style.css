@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+    
+}
+body{
+    background-color: #E8EED3;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white ;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;   
+    width: 100%;
+}
+.border{
+    border: 1.5px solid transparent;
+    border-radius: 5px;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.nav_address{
+    margin-left: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+.add-first{
+    margin-left: 20px;
+    color:#cccccc;
+    font-size: 1rem;
+}
+.add-second{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.add-icon{
+    display: flex;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    width: 620px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+}
+.nav-search:hover{
+    border: orange solid 2px;
+}
+.search-select{
+    background-color: #f3f3f3e8;
+    font-size: 14px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 70px;
+    text-align: center;
+    border: none;
+}
+.search-input{
+    width: 530px;
+    border: none;
+    font-size: 16px;
+    padding-left: 10px;
+    font-size:1rem;
+}
+.search-icon{
+    background-color: #feb454;
+    height: 60x;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #0f1111;
+}
+.nav-signin{
+    padding:5px;
+    cursor: pointer;
+}
+.sign-first{
+    font-size: 1rem;
+    color: #cccccc;
+}
+.sign-second{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.nav-cart i{
+    font-size: 2rem;
+}
+.nav-cart{
+    font-size: 1rem;
+    padding: 5px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    cursor: pointer;
+}
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display:flex;
+    color:white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p{
+    display:inline;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.panel-all{
+    font-size:14px;
+    font-weight: bold;
+    padding:10px;
+    cursor:pointer;
+}
+.panel-ops{
+    width: 90%;
+    font-size: 0.85rem;
+}
+.panel-ops p:hover{
+    cursor: pointer;
+}
+/* Hero Section */
+.hero-section{
+    background-image: linear-gradient(
+            to bottom,
+            rgba(0,0,0,0) 20%,
+            rgba(234,237,237,0.5) 65%,
+            rgba(234,237,237,0.85) 95%
+        ),url("amazon_background.jpg");
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.hero-msg{
+    display: inline-flex;
+    margin-top: 250px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    height: 40px;
+    width: 94%;
+    color: white;
+    background-color: white;
+    color:black;
+    margin-bottom: 50px;
+}
+.hero-msg a{
+    text-decoration: none;
+    color: #2162A1;
+}
+.shop-section{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.box{
+    height: 358px;
+    width: 270px;
+    margin-top: 30px;
+    margin-left: 35px;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.904);
+}
+.box1{
+    margin-left: 20px;
+}
+.box4{
+    margin-right: 20px;
+}
+.box-img{
+    height: 220px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.box a{
+    font-size: 0.9rem;
+    text-decoration: none;
+    color:#2162A1
+}
+.box-content{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
